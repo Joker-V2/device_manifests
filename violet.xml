@@ -6,7 +6,8 @@
     <remote name="ax-devices" fetch="https://github.com/AxionAOSP-devices" revision="lineage-23.2" />
     <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
     <remote name="joker" fetch="https://github.com/Joker-V2" revision="lineage-23.2" />
-
+    <remote name="gitlab" fetch="https://gitlab.com/Joker-V2" revision="sixteen" />
+    
     <!-- Device -->
     <project remote="ax-devices" name="android_device_xiaomi_violet" path="device/xiaomi/violet" />
 
@@ -15,6 +16,7 @@
 
     <!-- Vendor -->
     <project remote="ax-devices" name="android_vendor_xiaomi_violet" path="vendor/xiaomi/violet" />
+    <project remote="gitlab" name="android_vendor_MiuiCamera" path="vendor/MiuiCamera" revision="sixteen" />
     <project remote="joker" name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="lineage-23.2" />
     <project remote="joker" name="vendor_oneplus_dolby" path="packages/apps/DolbyAtmos" revision="app" />
 
